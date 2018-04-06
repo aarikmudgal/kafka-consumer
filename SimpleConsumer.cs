@@ -13,7 +13,7 @@ namespace kafkaConsumer
             var config = new Dictionary<string, object>
             {
                 {"group.id", "simple_consumer"},
-                {"bootstrap.servers", "172.17.0.1:9092" },
+                {"bootstrap.servers", "localhost:9092" },
                 {"enable.auto.commit", "false" }
             };
 
