@@ -26,10 +26,10 @@ namespace kafkaConsumer
                     messgae(msg.Value);
                 };
                 
-                List<Product> products = JsonConvert.DeserializeObject<List<Product>>(json);
-                Console.WriteLine(products.Count);
-                Product p1 = products[0];
-                Console.WriteLine(p1.Name);
+                //List<Product> products = JsonConvert.DeserializeObject<List<Product>>(json);
+                //Console.WriteLine(products.Count);
+                //Product p1 = products[0];
+                //Console.WriteLine(p1.Name);
                 
                 while (true)
                 {
